@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main function-"Output Statement"
+ * main-"Output Statement"
  *
  * Return: 0;
  */
