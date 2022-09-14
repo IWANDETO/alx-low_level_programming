@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * print_alphabet -this function Prints the alphabet a to z in lowercase
  *
