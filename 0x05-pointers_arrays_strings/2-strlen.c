@@ -11,5 +11,5 @@ int _strlen(char *s)
 	for (a = 0; *s != '\0'; s++) /*counts characters in string until 0. */
 		a++;
 
-	return (0);
+	return (a);
 }
