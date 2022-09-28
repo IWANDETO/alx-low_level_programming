@@ -17,6 +17,9 @@ void _puts_recursion(char *s)
 }
 int main(void)
 {
+	char s[0];
+
+	_putchar(*s);
 	_puts_recursion;
 	return (0);
 }
