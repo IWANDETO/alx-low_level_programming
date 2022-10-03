@@ -2,12 +2,15 @@
 #include <stdio.h>
 
 /**
- * int main - program prints name followed by a new line
- * return - returns 0 if the program runs succesfully
+ * main - program prints name followed by a new line
+ * @argc: argument count
+ * @argv: string array vector
+ * Return: nothing
  */
 
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
-
+printf("Program name is %s\n", argv[0]);
+	(void)argc;
 return (0);
 }
