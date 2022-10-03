@@ -3,17 +3,13 @@
 
 /**
  *main -Main Program that prints number of arguments passed to it
- * @argc: arguement count
+ * @argc: argument count
  * @argv: string vector
  * Return: nothing
  */
 int main(int argc, char *argv[])
 {
-	int i;
-
-	for (i = 0; i < argc; i++)
-	{
-		printf("number of arguments is %d\n", argc);
-	}
-			return (0);
+	printf("%d\n", argc - 1);
+			(void)argv;
+	return (0);
 }
